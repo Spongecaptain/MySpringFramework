@@ -120,6 +120,8 @@ compile(project(":spring-context"))
 
 为了避免每次通过 Gradle 来运行项目，因此我们这里需要一定的配置，File --->Setting ---> Build,Execution,Deployment ----> Build and run using IntelliJ IDEA 以及 Run test using IntelliJ IDEA，如下图所示：
 
+我自己的测试入口包为：mybootstrap
+
 ![image-20200829202438096](images/image-20200829202438096.png)
 
 然后在 biuld.gradle 中引入 spring-context 模块，加入如下的配置：
